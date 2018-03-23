@@ -1,5 +1,5 @@
 .. Homework 1 documentation master file, created by
-   sphinx-quickstart on Fri Mar 23 11:36:02 2018.
+   sphinx-quickstart on Fri Mar 23 12:38:16 2018.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
@@ -12,6 +12,7 @@ Welcome to Homework 1's documentation!
 
    tutorial
    code
+
 
 
 Indices and tables

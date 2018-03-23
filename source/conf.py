@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # Homework 1 documentation build configuration file, created by
-# sphinx-quickstart on Fri Mar 23 11:36:02 2018.
+# sphinx-quickstart on Fri Mar 23 12:38:16 2018.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -30,7 +30,8 @@ sys.path.insert(0, os.path.abspath('../'))
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.doctest',
+extensions = ['sphinx.ext.autodoc',
+    'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
@@ -50,8 +51,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Homework 1'
-copyright = u'2018, Danai AVgerinou'
-author = u'Danai AVgerinou'
+copyright = u'2018, Danai Avgerinou'
+author = u'Danai Avgerinou'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -131,7 +132,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'Homework1.tex', u'Homework 1 Documentation',
-     u'Danai AVgerinou', 'manual'),
+     u'Danai Avgerinou', 'manual'),
 ]
 
 
